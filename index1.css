@@ -1,0 +1,93 @@
+* {
+ margin: 0;
+ padding: 0;
+ box-sizing: border-box;
+}
+body{
+    background-image:url("img/1cyber-crime-2.jpg");
+    text-align: center;
+    background-size:cover;
+    background-repeat: no-repeat;
+    font-family:arial;
+}
+
+#logo{
+    height:100px;
+    width: 350px;
+    object-position: left;
+    display: block;
+    border:15px;
+    margin-top: 20px;
+    border-radius: 105px;}
+
+div{
+    text-align: center;display: block;
+  
+}
+
+    
+button{
+    background-color:white;
+    border: 5px solid #4CAF50;
+    width: 150px;
+    height:60px;
+    border-radius:10px;
+    color: black;
+    font-family: sans-serif;
+    font-size: 20px;
+    opacity:1; 
+    align-self: center;
+}
+button:hover{
+    background-color: black;
+    color:white;
+    transition-duration: 0.5s;
+    font-weight: 400;
+    font-size: 24px;
+}
+h1{
+    background-color:rgba(18,107,191, 0.5);
+    padding:20px;
+    margin-left:300px;
+    margin-right: 300px;
+    margin-top: 40px;
+    margin-bottom: 50px;
+    color:#00FF00;
+    font-family: 'Raleway',sans-serif; font-size: 62px; font-weight: 800; line-height: 72px; text-align: center; text-transform: uppercase;
+    border-radius: 25px;
+    text-shadow: 2px 2px #000000;
+}
+h1:hover{
+    
+    background-color:rgba(18,107,191, 0.8);
+    color:white;
+    transition-duration: 0.5s;
+}
+#login,#register{
+    padding:25%;
+    color: black;
+    margin: auto;
+    margin-left:150px;
+    margin-right: 150px;
+    font-family: sans-serif;
+    font-size: 38px;
+   background-color:rgba(255,255,255,.4);
+    
+    padding-top: 100px;
+    padding-bottom: 100px;
+   
+    border-radius: 38px;
+    
+    
+}
+#login:hover,#register:hover{
+    background-color: black;
+    transition-duration: 0.5s;
+    color: white;
+    opacity:1;
+}
+p{
+    font-family: sans-serif;
+    font-size: 30px;
+    
+}

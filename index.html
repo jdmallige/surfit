@@ -1,0 +1,40 @@
+<?php
+session_start();
+if(isset($_SESSION['email']))
+{
+    header('Location:home.php');
+}?>
+
+
+<html>
+<head>
+    <title>
+    THE MAIN PAGE</title>
+    
+ <a id=logo href="index.php"><img src="img/logo.jpg" id=logo ></a>
+    <br><br>
+    <h1> Welcome to Surf - IT</h1>
+    <link rel="stylesheet" href="index1.css" type="text/css">
+    </head>
+<body>
+ <div id=register>
+     <p> New User </p><br><br>
+    <button onclick="location.href='register.php'"> Register
+     </button>
+    </div>
+    <br><br>
+    <div id=login>
+    <p> Existing User </p><br><br>
+    <button onclick="location.href='login.php'"> Login
+     </button>
+    
+
+
+    </div>
+</body>
+<br>
+    <br>
+    <br>
+<small> Site Developed by jagdish</small>
+    
+</html>
